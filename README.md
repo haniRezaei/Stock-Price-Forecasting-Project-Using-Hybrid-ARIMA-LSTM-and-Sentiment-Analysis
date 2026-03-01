@@ -21,7 +21,10 @@ Visual dashboards were created to clearly communicate predicted vs. actual stock
 Impact:
 This project demonstrates the integration of quantitative models with unstructured data (news sentiment) to improve financial forecasting. The workflow can be adapted for other financial instruments or applied to real-time prediction pipelines for investment and risk management decisions.
 
-#Interpretation of Results
+#Interpretation of Results:
+<img width="1507" height="751" alt="download" src="https://github.com/user-attachments/assets/74a9b3d3-c6fd-4ec5-8a05-5d3e31bc4638" />
+
+
 
 in the last plot that we have blue line for training data, red line for validation set, and yellow line for hybrid model of LSTM ans ARIMA+ sentiment adjustment), the predicted values closely follow the validation set trends, capturing both upward and downward movements. This indicates that the hybrid model effectively learned the underlying price patterns and market behavior.
 also in results using RMSE and MAPE, RMSE with the value of 307.80, shows that on average, the predicted price deviates from the actual price by roughly 308 points, which is relatively small given that DJIA values are in the range of 16,000–18,000.
