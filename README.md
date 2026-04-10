@@ -24,6 +24,8 @@ This project demonstrates the integration of quantitative models with unstructur
 #Interpretation of Results:
 <img width="1507" height="751" alt="download" src="https://github.com/user-attachments/assets/74a9b3d3-c6fd-4ec5-8a05-5d3e31bc4638" />
 
+This project implements a multi-stage ensemble pipeline designed to overcome the limitations of single-model forecasting. By decomposing stock price series into linear and non-linear components, the framework leverages ARIMA for structural trend capturing and LSTM for residual pattern recognition.
+
 
 
 in the last plot that we have blue line for training data, red line for validation set, and yellow line for hybrid model of LSTM ans ARIMA+ sentiment adjustment), the predicted values closely follow the validation set trends, capturing both upward and downward movements. This indicates that the hybrid model effectively learned the underlying price patterns and market behavior.
