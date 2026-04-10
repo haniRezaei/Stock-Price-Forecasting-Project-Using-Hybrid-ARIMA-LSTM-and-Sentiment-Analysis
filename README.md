@@ -37,4 +37,4 @@ The alignment of predicted and actual values in the plot confirms the model’s 
 This level of accuracy is strong, especially in financial time series forecasting where volatility is high.
 
 
-This project implements a multi-stage ensemble pipeline designed to overcome the limitations of single-model forecasting. By decomposing stock price series into linear and non-linear components, the framework leverages ARIMA for structural trend capturing and LSTM for residual pattern recognition
+This project implements a multi-stage ensemble pipeline designed to overcome the limitations of single-model forecasting. By decomposing stock price series into linear and non-linear components, the framework leverages ARIMA for structural trend capturing and LSTM for residual pattern recognition.
